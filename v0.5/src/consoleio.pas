@@ -1,1 +1,0 @@
-../../../libs/stdlibs/releases/consoleio/v0.1/consoleio.pas
