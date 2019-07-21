@@ -1,15 +1,24 @@
 # LOS-Kernel #
 **Repositório principal do Kernel LOS**
 
-Este repositório será usado para a implementação do kernel LOS.
+Este repositório é um submódulo do projeto LOS e será usado para a implementação do kernel LOS.
 
-```
-Para um correto funcionamento, este repositório deve estar localizado no diretório:
-
-	.../LuckyOS/src/kernel
-```
+***Não é necessário que o mesmo seja obtido individualmente.***
 
 ## Revisões ##
+
+* **kernel-v0.7:** Reorganização da estrutura.
+Requisitos:
+
+```
+LOS-FPC-RTL.build-004
+LOS-SystemLibs.build-002
+LOS-StdLibs.build-002
+LOS-KernelLibs.build-009
+LOS-Libs16.build-017
+LOS-DriversLibs.build-002
+LOS-Drivers.build-002
+```
 
 * **kernel-v0.6.1:** Mudança em ABORT.
 Requisitos:
